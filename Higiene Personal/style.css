@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+}
+
+/* Encabezado */
+header {
+    background: #AACEE2;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    background: #8C65D3;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Menú */
+nav {
+    margin-top: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu > li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #0052A5;
+    font-weight: bold;
+}
+
+.submenu ul {
+    display: none;
+    position: absolute;
+    background: #8fd3f4;
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+.submenu:hover ul {
+    display: block;
+}
+
+.submenu ul li {
+    padding: 5px 0;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 15%;
+    background: #AACEE2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+/* Contenido */
+main {
+    width: 75%;
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+/* Pie de página */
+footer {
+    background: #AACEE2;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
